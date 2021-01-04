@@ -2619,9 +2619,11 @@ input, select, textarea {
 		}
 
 		.image.fit {
+			background: #1e252d;
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			text-align: center;
 		}
 
 			.image.fit:first-child {
@@ -2629,7 +2631,8 @@ input, select, textarea {
 			}
 
 			.image.fit img {
-				width: 100%;
+				margin-left: 24%;
+				width: 50%;
 			}
 
 		.image.main {
@@ -4383,9 +4386,8 @@ input, select, textarea {
 		}
 
 	#copyright {
-		color: #ffffff;
+		color: #443E3E;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
