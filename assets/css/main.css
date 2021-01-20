@@ -2623,6 +2623,7 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
+			height: 300px;
 			text-align: center;
 			overflow: hidden;
 		}
@@ -2634,7 +2635,8 @@ input, select, textarea {
 			.image.fit img {
 				margin-left: 24%;
 				width: 50%;
-				height: 300px;
+				min-height: 100%;
+
 			}
 
 		.image.main {
